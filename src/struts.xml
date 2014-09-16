@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="excel" extends="struts-default" namespace="/excel">
+		<action name="outputexcel" class="com.hukaimiao.excel.action.ManageExcelAction" method="OutputExcel">
+		
+		</action>
+		<action name="inputexcel" class="com.hukaimiao.excel.action.ManageExcelAction" method="InputExcel">
+			<result name="success">/inputdata.jsp</result>
+		</action>
+	</package>
+</struts>    
