@@ -21,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <a href ="excel/outputexcel.action" >导出excel</1111a>
+    <a href ="excel/outputexcel.action" >导出excel</a>
     
     <br/>
     <br/>
